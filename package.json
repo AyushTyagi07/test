@@ -1,0 +1,32 @@
+{
+  "name": "accounts-test",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "main.js",
+  "scripts": {
+    "start":"electron .",
+    "build":"electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyushTyagi07/test.git"
+  },
+  "keywords": [
+    "Testing",
+    "electron"
+  ],
+  "author": "Ayush Tyagi",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/AyushTyagi07/test/issues"
+  },
+  "homepage": "https://github.com/AyushTyagi07/test#readme",
+  "devDependencies": {
+    "electron": "^7.1.9",
+    "electron-builder": "^22.2.0"
+  },
+  "dependencies": {
+    "updater": "0.0.1"
+  }
+}

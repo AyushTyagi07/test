@@ -1,0 +1,4 @@
+appId: com.specso.Test
+publish:
+  provider: github
+  token: 411141ef8467829da0b79cfce0dc4653408affd9
